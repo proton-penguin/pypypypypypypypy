@@ -26,11 +26,9 @@ for i in range (2,10):
 ## 金字塔1
 原始碼
 ```python
-def tri():
-    r = range(1,int(input("高度幾層？ "))+1);
-    for i in r:
-        print((len(r)-i)*" "+"* "*i)
-tri()
+r = range(1,int(input("高度幾層？ "))+1);
+for i in r:
+    print((len(r)-i)*" "+"* "*i)
 ```
 輸出
 ```
