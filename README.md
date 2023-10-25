@@ -24,6 +24,7 @@ for i in range (2,10):
 ```
 
 ## 金字塔1
+原始碼
 ```python
 def tri():
     r = range(1,int(input("高度幾層？ "))+1);
