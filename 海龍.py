@@ -20,7 +20,7 @@ def hilong():
         twoS = s1+s2+s3
         ans = sqrt(twoS*(twoS-s1*2)*(twoS-s2*2)*(twoS-s3*2)/pow(2,4))
         printc("由水怪公式計算出面積= "+str(ans)+"平方單位",CGRE)
-   else:
+    else:
         printc("error, please try again! ",CRED)
         hilong()
 hilong()
